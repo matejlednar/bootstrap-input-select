@@ -34,7 +34,7 @@ Easy to use, copy and paste small CSS and HTML fragments.
 ##HTML fragment
     <div class="input-select btn-group">
         <table><tr><td class="field">
-                    <input id="inputSelectField" size="16" type="text">
+                    <input id="inputSelectField" type="text">
                 </td><td>
                     <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                         <span class="caret"></span>
