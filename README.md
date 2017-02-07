@@ -5,7 +5,7 @@ Input/Select widget for Bootstrap
 - User can extract URL and set it to input field or set item name (value).
 - User can set full width (100%) or define own width.
 
-Easy to use, copy and paste small CSS and HTML fragments.
+Easy to use, copy and paste small CSS, HTML, and JavaScript fragments.
 
 ##CSS fragment
       .input-select .btn.dropdown-toggle {
