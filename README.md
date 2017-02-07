@@ -48,3 +48,12 @@ Easy to use, copy and paste small CSS and HTML fragments.
                 </td></tr>
         </table>
     </div>
+
+##JavaScript code
+$(".input-select .dropdown-menu").on("click", function (e) {
+    var item = e.target;
+    var name = item.textContent;
+    var href = item.getAttribute("href");
+    $("#inputSelectField").val(name);
+    e.preventDefault();
+});
