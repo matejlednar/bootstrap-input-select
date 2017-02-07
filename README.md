@@ -50,10 +50,12 @@ Easy to use, copy and paste small CSS and HTML fragments.
     </div>
 
 ##JavaScript code
-$(".input-select .dropdown-menu").on("click", function (e) {<br>
-    var item = e.target;<br>
-    var name = item.textContent;<br>
-    var href = item.getAttribute("href");<br>
-    $("#inputSelectField").val(name);<br>
-    e.preventDefault();<br>
-});<br>
+```javascript
+$(".input-select .dropdown-menu").on("click", function (e) {
+    var item = e.target;
+    var name = item.textContent;
+    var href = item.getAttribute("href");
+    $("#inputSelectField").val(name);
+    e.preventDefault();
+});
+```
