@@ -7,7 +7,8 @@ Input/Select widget for Bootstrap
 
 Easy to use, copy and paste small CSS, HTML, and JavaScript fragments.
 
-##CSS fragment
+## CSS fragment
+```
       .input-select .btn.dropdown-toggle {
           float: none;
       }
@@ -30,8 +31,9 @@ Easy to use, copy and paste small CSS, HTML, and JavaScript fragments.
           overflow: hidden;
           margin-right: 20px;
       }
-
-##HTML fragment
+```
+## HTML fragment
+```
     <div class="input-select btn-group">
         <table><tr><td class="field">
                     <input id="inputSelectField" type="text">
@@ -48,9 +50,9 @@ Easy to use, copy and paste small CSS, HTML, and JavaScript fragments.
                 </td></tr>
         </table>
     </div>
-
-##JavaScript code
-```javascript
+```
+## JavaScript code
+```
 $(".input-select .dropdown-menu").on("click", function (e) {
     var item = e.target;
     var name = item.textContent;
